@@ -1,0 +1,591 @@
+.test2{
+    
+    margin-left: 30px;
+}
+.sidebar{
+  
+   position: fixed;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   width: 340px;
+   background-color: #000000;
+
+}
+
+
+.sidebar a{
+    text-decoration: none;
+    color:#b3b3b3;
+    font-weight: bold;
+}
+.spotify{
+
+    font-size: 20px;
+}
+.spot{
+    margin-bottom: 30px;
+}
+.sidebar a:hover,.sidebar a:active,.sidebar a:focus{
+    color: #ffffff;
+}
+.sidebar a:hover .fa,.sidebar a:active .fa,.sidebar a:focus .fa {
+    color: #ffffff;
+}
+.policies{
+    position: absolute;
+    bottom: 100px;
+}
+.main-container {
+    margin-left: 315px;
+    margin-bottom: 100px;
+  }
+  
+  .topbar {
+  
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #101010;
+    padding: 14px 30px;
+  }
+  .topbar .prev-next-buttons button {
+    color: #7a7a7a;
+    cursor: not-allowed;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: #090909;
+    margin-right: 10px;
+  }
+  .topbar .navbar {
+    display: flex;
+    align-items: center;
+  }
+  .topbar .navbar ul {
+    list-style: none;
+  }
+  .topbar .navbar ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+  }
+  .topbar .navbar ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .topbar .navbar ul li a:hover,
+  .topbar .navbar ul li a:active,
+  .topbar .navbar ul li a:focus {
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .topbar .navbar ul li.divider {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0px 20px;
+    width: auto;
+  }
+  .topbar .navbar button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .topbar .navbar button:hover,
+  .topbar .navbar button:active,
+  .topbar .navbar button:focus {
+    background-color: #f2f2f2;
+  }
+  
+  .spotify-playlists {
+    padding: 20px 40px;
+  }
+  .spotify-playlists h2 {
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .spotify-playlists .list {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+  }
+  .spotify-playlists .list .item {
+    min-width: 140px;
+    width: 160px;
+    padding: 15px;
+    background-color: #181818;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+  }
+  .spotify-playlists .list .item:hover {
+    background-color: #252525;
+  }
+  .spotify-playlists .list .item img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  .spotify-playlists .list .item .play {
+    position: relative;
+  }
+  .spotify-playlists .list .item .play .fa {
+    position: absolute;
+    right: 10px;
+    top: -60px;
+    padding: 18px;
+    background-color: #1db954;
+    border-radius: 100%;
+    opacity: 0;
+    transition: all ease 0.4s;
+  }
+  .spotify-playlists .list .item:hover .play .fa {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+  .spotify-playlists .list .item h4 {
+    color: #ffffff;
+    font-size: 14px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .spotify-playlists .list .item p {
+    color: #989898;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  .spotify-playlists hr {
+    margin: 70px 0px 0px;
+    border-color: #636363;
+  }
+  
+  .preview {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .preview h6 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .preview p {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .preview button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .hsy{
+    background-color: #101010;
+    border: 1px solid ;
+    border-radius: 10px;
+    padding: 20px;
+   margin-bottom: 40px;
+   margin: 5px;
+   padding-bottom: 30px;
+  }
+ .hsy a{
+  padding-top: 10px;
+ }
+ .hs div{
+  margin-top: 30px;
+ }
+ .plus{
+  margin-left: 150px;
+ }
+ .ycb{
+
+  border: 1px solid ;
+  border-radius: 10px;
+
+ margin-bottom: 40px;
+ margin: 5px;
+ padding-bottom: 30px;
+
+ background-color: #101010;
+
+
+ }
+ .createplaylist{
+  background-color: #323232;
+  border: 1px solid black ;
+  border-radius: 8px;
+  padding: 10px;
+ margin-bottom: 20px;
+ margin-top: 10px;
+ padding-bottom: 15px;
+color: white;
+
+ padding-inline: 15px;
+
+ }
+ .createplaylist div{
+  margin-top: 15px;
+ }
+ .createplaylist button{
+  border-radius: 20px;
+  padding:10px;
+  color: black;
+  padding-inline: 15px;
+  border: hidden;
+  font-weight: bold;
+ 
+ }
+ .library{
+  background-color: #101010;
+
+  padding-top: 12px;
+  
+
+
+ 
+
+ }
+ .library a{
+  margin-left: 15px;
+ }
+ .scroll{
+  margin-top: 50px;
+  scrollbar-color: initial;
+  height: 170px;
+  overflow-y: hidden;
+  background-color: #101010;
+  
+ }
+ .scroll:hover{
+  overflow-y: scroll;
+ }
+ .scroll::-webkit-scrollbar{
+  width: 15px;
+  background-color:#101010;
+ }
+ .scroll::-webkit-scrollbar-thumb{
+  background-color: #323232;
+ }
+ .legal{
+  font-size: 11px;
+  margin-top: 30px;
+  color: rgb(186, 186, 186);
+  padding: 10px;
+  padding-inline: 15px;
+ }
+ .legal span{
+  margin-right: 10px;
+ }
+ .legal div{
+  margin-top: 10px;
+ }
+ .english{
+  margin: 10px;
+  margin-left: 15px;
+  margin-top: 10px;
+  padding: 6px;
+  background-color: #000000;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding-inline: 15px;
+  border: 1px solid rgb(165, 164, 164);
+ }
+ .engdiv{
+  
+ }
+ footer{
+  margin-top: 2rem;
+  color: white;
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+ 
+}
+footer .left-side{
+  font-size: 15px;
+  display: flex;
+  gap:8rem;
+}
+footer .left-side ul{
+  list-style: none;
+}
+footer  ul li{
+  color: white;
+  
+  margin-top: .8rem;
+}
+footer  ul li:nth-child(1){
+  font-weight: bold;
+}
+footer .left-side ul li a{
+  text-decoration: none;
+  color: #fcf8f881;
+  transition: .2s ease-in-out;
+  
+}
+
+
+footer .left-side ul li a:hover,
+footer .left-side ul li a:focus,
+footer .left-side ul li a:active{
+cursor: pointer;
+text-decoration: underline;
+color: white;
+}
+/* footer rightside */
+footer .right-side ul{
+  display: flex;
+  list-style: none;
+}
+
+footer .right-side ul li{
+  margin-right: 2rem;
+  background-color: rgba(128, 128, 128, 0.34);
+  padding: .7rem;
+  padding-inline: .8rem;
+  border-radius: 27rem;
+  transition: .2s ease-in-out;
+}
+footer .right-side ul li:hover{
+ background-color: rgba(255, 255, 255, 0.482);
+}
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  padding-block: 3rem;
+  border-top:0.5px solid rgba(128, 128, 128, 0.34) ;
+  color: rgba(255, 255, 255, 0.636);
+  font-size: 14px;
+  align-items: center;
+}
+.footer-bottom ul{
+list-style: none;
+display: flex;
+gap: 1.5rem;
+}
+.footer-bottom ul li a{
+  color: rgba(255, 255, 255, 0.532);
+  text-decoration: none;
+  transition:  .2s ease-in-out;
+  
+}
+.footer-bottom ul li a:hover{
+  color: white;
+}
+
+
+
+
+
+/* topbar-sm */
+
+.topbarnew {
+  display: none;
+
+  justify-content: space-between;
+  background-color: #101010;
+  padding: 28px 30px;
+}
+.topbarnew .prev-next-buttons button {
+  color: #7a7a7a;
+  cursor: not-allowed;
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+  font-size: 18px;
+  border: 0px;
+  background-color: #090909;
+  margin-right: 10px;
+}
+.topbarnew .navbar {
+  display: flex;
+  align-items: center;
+}
+.topbarnew .navbar ul {
+  list-style: none;
+}
+.topbarnew .navbar ul li {
+  padding: 20px;
+  display: inline-block;
+  margin: 0px 8px;
+  width: 70px;
+}
+.topbarnew .navbar ul li a {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.topbarnew .navbar ul li a:hover,
+.topbarnew .navbar ul li a:active,
+.topbarnew .navbar ul li a:focus {
+  color: #ffffff;
+  font-size: 15px;
+}
+.topbarnew .navbar ul li.divider {
+  color: #ffffff;
+  font-size: 26px;
+  margin: 0px 20px;
+  width: auto;
+}
+.topbarnew .navbar button {
+  background-color: #1db954;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 30px;
+  border: 0px;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.topbarnew .navbar button:hover,
+.topbarnew .navbar button:active,
+.topbarnew .navbar button:focus {
+  background-color: #f2f2f2;
+}
+/* topbar-sm-ends */
+
+.side-bar-down{
+  display: none;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, #434343, #131414);
+  padding: 15px 40px;
+
+  justify-content: space-between;
+}
+
+
+
+#close{
+  display: none;
+}
+
+
+@media screen and (max-width: 960px) {
+  .topbarnew{
+    display:flex;
+   
+  
+  }
+  .preview{
+    display: none;
+  }
+  .topbar{
+
+    display: none;
+    margin: 0;
+  }
+  #hide{
+    display: none;
+    padding-top: 10px;
+  }
+ 
+  
+  .topbarnew  ul{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .topbarnew .loginbtnlink{
+  
+     margin-left: -18px;
+    margin-top: 10px;
+   
+  }
+  
+   .spotify-playlists .list{
+    display: flex;
+   
+    flex-wrap: wrap;
+  
+  }
+  .spotify-playlists{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .topbarnew li{
+    margin-top: 20px;
+  }
+
+ footer{
+  display: flex;
+  flex-wrap: wrap;
+  
+  justify-content: center;
+  align-items: center;
+ }
+ footer .left-side{
+  display: flex;
+  flex-wrap: wrap;
+  
+
+ }
+ .footer-bottom{
+  display: flex;
+  flex-wrap: wrap;
+  
+  align-items: center;
+
+ }
+ .footer-bottom ul{
+  display: flex;
+  flex-wrap: wrap;
+  
+
+ }
+ .sidebar{
+
+  
+  display: none;
+
+ }
+ .main-container{
+  width: 100%;
+  margin-left: 0px;
+ }
+.side-bar-down{
+  display: flex;
+}
+
+ 
+
+ 
+
+}

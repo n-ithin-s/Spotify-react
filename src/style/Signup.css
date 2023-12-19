@@ -1,0 +1,151 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif)),Helvetica,Arial,sans-serif;
+    background-color:black;
+
+}
+
+.side{
+  
+  
+    
+    background-color: #000000;
+    padding: 28px;
+ 
+ }
+ .side a{
+    text-decoration: none;
+    color:#b3b3b3;
+    font-weight: bold;
+}
+.side .spotify{
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.box{
+    color: white;
+    margin-top: 100px;
+}
+.box h1{
+    font-size: 45px;
+}
+.box div{
+    margin-top: 40px;
+    font-weight:bolder ;
+}
+.box input{
+    margin-top: 20px;
+    background-color: #000000;
+    border: none;
+    border: 1px solid rgb(145, 143, 143);
+    border-radius: 5px;
+  
+    padding: 15px;
+    width: 90%;
+}
+.box .phone{
+    
+    color: rgb(74, 192, 74);
+}
+h5{
+    margin-top: 15px;
+}
+.next{
+    font-weight: bolder;
+    margin-top: 20px;
+    width: 100%;
+    padding: 16px;
+    background-color: rgb(65, 210, 65);
+    border-radius: 30px;
+    border: none;
+
+}
+.line{
+    border-bottom: 1px solid rgb(139, 137, 137);
+    width: 46%;
+  
+}
+.linediv{
+    display: flex;
+    align-items: center;
+  
+    
+}
+.google{
+    
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(128, 125, 125);
+    color: white;
+    font-weight: bolder;
+    margin-top: 30px;
+    width: 100%;
+    padding: 14px;
+    background-color:#000000;
+    border-radius: 30px;
+    font-size: 15px;
+ 
+
+}
+.google img{
+    width: 20px;
+    margin-right: 60px;
+    margin-left: 5px;
+}
+.facebook{
+    
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(128, 125, 125);
+    color: white;
+    font-weight: bolder;
+    margin-top: 10px;
+    width: 100%;
+    padding: 14px;
+    background-color:#000000;
+    border-radius: 30px;
+    font-size: 15px;
+ 
+
+}
+.facebook img{
+    width: 25px;
+    margin-right: 60px;
+    margin-left: 5px;
+}
+
+.line2{
+    border-bottom: 1px solid rgb(61, 60, 60);
+    width: 100%;
+  
+}
+.already{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #b3b3b3;
+}
+
+.login{
+   
+    color: white;
+}
+.site{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    color: #b3b3b3;
+}

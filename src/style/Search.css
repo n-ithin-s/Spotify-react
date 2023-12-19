@@ -1,0 +1,19 @@
+.test3{
+    margin-left: 344px;
+}
+.searchbar{
+    color: white;
+}
+.searchbar input{
+    width: 30%;
+    border-radius: 5px;
+    padding: 5px;
+}
+.searchbar button{
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 10px;
+    color: white;
+    background-color: green;
+}
